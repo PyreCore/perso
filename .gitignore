@@ -1,0 +1,39 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Base de données
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+
+# Logs
+*.log
+
+# Environnement / secrets
+.env
+.env.*
+*.env
+*.envfile
+
+# Éditeurs / IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.vim/
+
+# Tests / couverture
+.coverage
+htmlcov/
+.pytest_cache/
